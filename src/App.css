@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Upload{
+  /* position:relative; */
+  align-items: center;
+  /* display: flex; */
+  justify-content: center;
+  /*  top:50vh; */
+  padding: 4vw 4vw 4vw 4vw; 
+} 
+
+.Frame{
+  position: absolute;
+  background-image: url("./images/Logo2.svg");
+  display: flex;
+  flex-direction: row;
+  /* flex:1 1; */
+  flex-wrap: wrap;
+  align-items: center;
+  /* justify-content:right; */
+  /* object-fit: contain; */
+  /* overflow: hidden; */
+  background-size: cover;
+  top:10vh;
+  bottom:10vh;
+  left:10vw;
+  right:10vw;
+  border-radius: 3vw;
+  justify-content: space-between;
+  
+}
+
+.Runningframe{
+  justify-self: right;
+  align-self: stretch;
+  position:relative;
+  float: right;
+  height:100%;
+  width: 30vw;
+  background-color:black;
+  opacity: 50%;
+  background-size:cover;
+  border-radius: 3vw;
+}
+
+.imagecontrol{
+  width:10vw;
+  height:auto;
+}
+
+.Frame-left{
+  position: relative;
+  flex:2;
+  /* display: flex; */
+  justify-content: center;
+  /* float: left; */
+  height: 100%;
+  justify-self: center;
+  width: auto;
+  /* flex-flow: wrap; */
+  padding: 6vh;
+  text-align: center;
+  color: azure;
+  font-family: 'Roboto Slab', serif;
+}
+
+.Frame-right{
+  /* display: flex; */
+  flex:30%;
+  justify-self: right;
+  align-self: stretch;
+  position:relative;
+  float: right;
+  height:100%;
+  width: 30vw;
+  background-image: url("./images/Webf.svg");
+  background-size:cover;
+  border-radius: 3vw;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
